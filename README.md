@@ -1,11 +1,11 @@
-### install
+### Install
 
     yarn add @moeui/number-format  
 
     // or 
 
     npm i @moeui/number-format
-### use
+### Use
 
     import { formatMoney } from '@moeui/number-format'
 
