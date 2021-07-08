@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -31,12 +31,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "number-format",
+  "name": "@moeui/number-format",
   "author": "zkeyword",
   "repository": {
     "type": "git",
-    "url": "https://github.com/moeui/number-format.git"
+    "url": "git+https://github.com/moeui/number-format.git"
   },
+  "bugs": {
+    "url": "https://github.com/moeui/number-format/issues"
+  },
+  "homepage": "https://github.com/moeui/number-format#readme",
   "module": "dist/number-format.esm.js",
   "size-limit": [
     {
