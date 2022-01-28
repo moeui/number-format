@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.7 (2022-01-28)
+
+
+### Features
+
+* test ([c31ec9f](https://github.com/moeui/number-format/commit/c31ec9f0777fac4d5ba59ec74f171dab34f4226b))
+
 ### 0.1.6 (2022-01-28)
 
 ### 0.1.5 (2022-01-28)
