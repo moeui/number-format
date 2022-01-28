@@ -1,4 +1,5 @@
-export const formatDecimal = (number: number, decimal: number): string => {
+export const formatDecimal = (number: number, decimal = 2): string => {
+    if (number === undefined) return ''
     let num = number.toString()
     const index = num.indexOf('.')
     if (index !== -1) {
@@ -9,7 +10,7 @@ export const formatDecimal = (number: number, decimal: number): string => {
     return parseFloat(num).toFixed(decimal)
 }
 
-export const formatMoney = (value: string | number, n: number): number | string => {
+export const formatMoney = (value: string | number, n = 2): number | string => {
     if (isNaN(Number(value))) return Number(0).toFixed(n > 0 ? n : 0)
     const isNegative = value < 0
     const v = formatDecimal(Math.abs(Number(value)), n > 0 ? n : 0)
@@ -17,8 +18,8 @@ export const formatMoney = (value: string | number, n: number): number | string 
     const r = v.split('.')[1]
     let t = ''
     for (let i = 0; i < l.length; i++) {
-        t += l[i] + ((i + 1) % 3 == 0 && i + 1 != l.length ? ',' : '')
+        t += l[i] + ((i + 1) % 3 === 0 && i + 1 !== l.length ? ',' : '')
     }
-    const res = t.split('').reverse().join('') + `${r ? '.' + r : ''}`
+    const res = t.split('').reverse().join('') + `${r && r !== '00' ? '.' + r : ''}`
     return `${isNegative ? '-' : ''}${res}`
 }
