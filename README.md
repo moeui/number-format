@@ -5,6 +5,7 @@
     // or 
 
     npm i @moeui/number-format
+    
 ### Use
 
     import { formatMoney, formatDecimal } from '@moeui/number-format'
