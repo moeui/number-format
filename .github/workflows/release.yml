@@ -17,6 +17,7 @@ jobs:
       - run: git config user.name zkeyword
       - run: git config user.email zjx1247225@163.com
       - run: npx standard-version
+      - run: npm i -g tsdx
       - run: git push origin master
       - run: npm publish
         env:
