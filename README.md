@@ -1,4 +1,4 @@
-# [React](https://reactjs.org/) &middot; [![npm version](https://img.shields.io/npm/v/@moeui/number-format.svg?style=flat)](https://www.npmjs.com/package/@moeui/number-format) [![Release Workflow Status](https://github.com/moeui/number-format/actions/workflows/release.yml/badge.svg)](https://github.com/moeui/number-format/actions/workflows/release.yml)
+# @moeui/number-format &middot; [![npm version](https://img.shields.io/npm/v/@moeui/number-format.svg?style=flat)](https://www.npmjs.com/package/@moeui/number-format) [![Release Workflow Status](https://github.com/moeui/number-format/actions/workflows/release.yml/badge.svg)](https://github.com/moeui/number-format/actions/workflows/release.yml)
 
 ### Install
 
